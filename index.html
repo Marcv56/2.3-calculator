@@ -4,50 +4,64 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Calculator</title>
 </head>
+<body>
 
-<div class="calculator head">
-  what is 2+2
+
+<h1>html Calculator</h1>
+<div id="calc-parent">
+  <div class="row">
+    <div class="column" id="calc-display-val">0</div>
+  </div>
+
+  <div class="row">
+    <div class="calc-btn column" id="calc-clear">AC</div>
+    <div class="calc-btn column" id="plus-minus">+/-</div>
+    <div class="calc-btn column" id="calc-percent">%</div>
+    <div class="calc-btn calc-btn-operator column" id="calc-divide">&#247;</div>
+
+  </div>
+
+  <div class="row">
+    <div class="calc-btn calc-btn-num column" id="calc-seven-">7</div>
+    <div class="calc-btn calc-btn-num column" id="calc-eight">8</div>
+    <div class="calc-btn calc-btn-num column" id="calc-nine">9</div>
+    <div class="calc-btn calc-btn-operator column" id="calc-multiply">x</div>
+
+
+  </div>
+
+  <div class="row">
+    <div class="calc-btn calc-btn-num column" id="calc-four">4</div>
+    <div class="calc-btn calc-btn-num column" id="calc-five">5</div>
+    <div class="calc-btn calc-btn-num column" id="calc-six">6</div>
+    <div class="calc-btn calc-btn-operator column" id="calc-minus">-</div>
+
+  </div>
+
+  <div class="row">
+    <div class="calc-btn calc-btn-num column" id="calc-one">1</div>
+    <div class="calc-btn calc-btn-num column" id="calc-two">2</div>
+    <div class="calc-btn calc-btn-num column" id="calc-three">3</div>
+    <div class="calc-btn calc-btn-operator column" id="calc-plus">+</div>
+
+  </div>
+
+  <div class="row">
+    <div class="calc-btn calc-btn-num column" id="calc-zero">0</div>
+    <div class="calc-btn column" id="calc-decimal">.</div>
+    <div class="calc-btn calc-btn-operator column" id="calc-equals">=</div>
+  </div>
+
 </div>
 
 
-<div class="row">
-<button type="button" name="button">AC</button>
-<button type="button" name="button">+/-</button>
-<button type="button" name="button">%</button>
-<button type="button" name="button">&#247;</button>
-<button type="button" name="button">&#215;</button>
-<button type="button" name="button">&#8722;</button>
-<button type="button" name="button">&#43;</button>
-<button type="button" name="button">&#61;</button>
-</div>
 
 
 
-
-
-<div class="button numbers">
-<button type="button" name="button">1</button>
-<button type="button" name="button">2</button>
-<button type="button" name="button">3</button>
-<button type="button" name="button">4</button>
-<button type="button" name="button">5</button>
-<button type="button" name="button">6</button>
-<button type="button" name="button">7</button>
-<button type="button" name="button">8</button>
-<button type="button" name="button">9</button>
-<button type="button" name="button">0</button>
-</div>
-
-
-
-
-
-
-
-
-  <script src="main.js"></script>
+<script src="main.js"></script>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
