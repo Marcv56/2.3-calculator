@@ -8,11 +8,11 @@ body {
   margin-left: 43%; }
 
 .calc.btn {
-  background-color: silver;
+  background-color: gray;
   color: black;
   width: 25px;
   height: 45px;
-  border: 1px solid gray;
+  border: 1px solid black;
   text-align: center;
   cursor: pointer;
   font-size: 32px;
@@ -28,7 +28,10 @@ body {
   width: 200px; }
 
 .column {
-  display: table-cell; }
+  display: table-cell;
+  background-color: gray;
+  border-style: solid;
+  border-color: black; }
 
 #calc-zero {
   width: 98.67px;
